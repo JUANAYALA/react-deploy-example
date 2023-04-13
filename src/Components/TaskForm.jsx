@@ -21,7 +21,7 @@ function TaskForm() {
       <form onSubmit={handleSubmit}>
         <div className="mb-3">
           <input className="bg-gray-800 text-white p-4 rounded-md"
-          placeholder="Ingrese la tarea"
+          placeholder="Ingrese la Novedad"
           onChange={(e) => (setTitle(e.target.value))}
           value={title}
           />
@@ -30,7 +30,7 @@ function TaskForm() {
         <div>
           <textarea className="bg-gray-800 text-white p-4 rounded-md"
           cols="30" rows="10"
-          placeholder="Ingrese la descripción"
+          placeholder="Ingrese la descripción de la novedad"
           onChange={(e) => (setDescripction(e.target.value))}
           value={description}
           />
