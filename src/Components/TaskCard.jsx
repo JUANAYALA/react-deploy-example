@@ -8,7 +8,7 @@ function TaskCard({task}){
       <h1 className="text-xl font-mono capitalize">{task.title}</h1>
       <p className="text-gray-500 text-sm py-3">{task.description}</p>
       <button className="bg-orange-500 px-4 py-2 rounded-md" onClick={() => deleteTasks(task.id)}>
-        Eliminar tarea
+        Eliminar robo
       </button>
     </div>
   );
