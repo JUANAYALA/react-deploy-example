@@ -7,7 +7,7 @@ function TaskList() {
 
     if (tasks.length === 0) {
         return (
-            <h3>NO HAY TAREAS CREADAS</h3>
+            <h3>NO HAY NOVEDADES CREADAS</h3>
         )
     }
 
